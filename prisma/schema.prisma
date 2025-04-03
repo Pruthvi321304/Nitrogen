@@ -60,4 +60,4 @@ model OrderItem {
   quantity   Int
   order      Order   @relation(fields: [orderId], references: [id])
   menuItem   MenuItem @relation(fields: [menuItemId], references: [id])
-}
+} 
